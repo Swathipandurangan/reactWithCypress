@@ -1,0 +1,37 @@
+.formContainer {
+  border: solid;
+  border-radius: 5px;
+  border-width: medium;
+  background-size: cover;
+  height: 100%;
+  width: 48%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.loginForm {
+  height: 80vh;
+  width: 35vw;
+  align-items: center;
+  padding-left: 7vw;
+  padding-top: 12vh;
+}
+  
+.formErrors {
+  color: red;
+}
+
+.formLabel {
+  font-weight: bold;
+}
+
+.registerTxt {
+  display: inline;
+}
+
+.submitBtn {
+  margin-top: 20px;
+}

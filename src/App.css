@@ -1,0 +1,52 @@
+.cardsContainer {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.category-list {
+    list-style: none;
+}
+
+.btn-filter {
+    margin-right: 10px;
+}
+
+.span-filter {
+    padding-left: 2px;
+    padding-right: 8px;
+}
+
+.formControl {
+    display: inline;
+    margin-left: 20px;
+    width: 50%;
+}
+
+.navBar {
+    max-height: 55px;
+}
+
+.cardDeck {
+    margin-top: 30px;
+}
+
+@media(max-width: 650px) {
+    .navBar {
+        max-height: none;
+    }
+}
+
+@media(max-width: 560px) {
+    .navMenu {
+        flex-direction: column;
+    }
+    .cardDeck {
+        margin-top: 70px;
+    }
+}
+
+@media(max-width: 390px) {
+    .cardDeck {
+        margin-top: 40%;
+    }
+}
